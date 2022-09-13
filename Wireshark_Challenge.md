@@ -55,7 +55,7 @@ From the littleblackbox github page, we can see we need to run the following:
 `littleblackbox --pcap=/mnt/c/Users/adhd/snoop.pcap`
 
 The output gives us an RSA Private Key as output:
->-----BEGIN RSA PRIVATE KEY-----
+>-----BEGIN RSA PRIVATE KEY-----<br>
 MIICWwIBAAKBgQDOPa+w/2o5IuWs3eV2MVXEpyqLYfZScbyPpr2mY8zkbdKC6DFq
 zG6cBY7S06qobVjXmOgQMkoVoO8ihbD1NB6V/4xyDgMwJJ8uSfpaB/JyzefeoNz9
 Gcg+s+wpKoG84PTHyfVy6xMTCwZ+qC26JLGPquu/ucwEljHy0WVYPmb9VQIDAQAB
@@ -68,7 +68,7 @@ ztAjFxpKobIgzy9u1AH15WDqqd2rawtJk2FTFcz0GrAy/gawKU42wFqZOKv28iMq
 NeBwRwbR+2b7Y+KqAfSGHdsf+jOUru+YBgYGnBl5rtAD/o8MyPQN2+abYQJABhbD
 mzW7vMxdqxunu38v8JLfzcGXCCjmCRnWxiX6ZFSZhZiB5sPI+wOx32G+ULJ2ylDI
 7KkfFvKH4+Xrk7H/NQJAJWQusAs1tHhDDddvcvqe4J5q0qvNdOSTs0Cu2CimWPxe
-tfcz64o64XWgmCAaFq2pfaN4oC1kaGnIbUEdtIqNXw==
+tfcz64o64XWgmCAaFq2pfaN4oC1kaGnIbUEdtIqNXw==<br>
 -----END RSA PRIVATE KEY-----
 
 Save the key information to a file (there may be an easier way but I don't know Linux very well yet, so...)
