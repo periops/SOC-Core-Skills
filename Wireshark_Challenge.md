@@ -18,7 +18,7 @@ First, we need to get the VM prepared by installing a few libraries, most of whi
 `sudo apt-get install libssl-dev libpcap-dev libsqlite3-dev`
 
 We *also* need to install an older version of OpenSSL because the `sudo make install` command we'll need to run shortly will fail without it:
-
+<br>
 `sudo apt install libssl1.0-dev`
 
 Download the PCAP file with wget if you didn't download it manually already:
@@ -80,7 +80,7 @@ Press ESC and then `:wq`
 
 We now need to add the RSA key into Wireshark so it can help us decode the traffic:
 
-*References:*
+*References for figuring out the next section:*
 <br>
 *<https://support.pushtechnology.com/s/article/Decrypting-Secure-PCAPs> and*
 <br>
@@ -98,7 +98,6 @@ In Wireshark, add the new key to the keys list:
 - IP address 0.0.0.0
 - Key File C:/Users/adhd/snoop.key
 - Click OK
-
 
 Now all of the encrpyted traffic is highlighted in green. I chose to look for POST entries in the Info column since we knew we were looking for someone setting a password.
 
