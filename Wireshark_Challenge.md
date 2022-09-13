@@ -2,11 +2,11 @@
 
 > Unfortunately, DNS Corporation still uses a number of very old routers throughout there network. On the bright side though, even though these devices don't automatically use SSL for their management portals, your admins know to make sure to always use https. As part of your pentest, you managed to capture some traffic during when an admin changed the wifi password. Since it's SSL encrypted, you shouldn't be able to decrypt it, right? It's not like you'd be able to find the private key for someone's router on the internet. RIGHT? Download snoop.pcap, and let's find out. Your flag is the new Wifi password.
 
-> [Download the PCAP here](https://range.metaproblems.com/739c7a4b6b9d8d9281bb3a4c964e68ca/snoop.pcap) or grab it with wget below
+[Download the PCAP here](https://range.metaproblems.com/739c7a4b6b9d8d9281bb3a4c964e68ca/snoop.pcap) or grab it with wget below
 
-> *Tip: for this one, see if you can find a repository that stores hardcoded SSL keys.*
+*Tip: for this one, see if you can find a repository that stores hardcoded SSL keys.*
 
-
+<br><br>
 A database of private SSL/SSH keys can be found at this GitHub repo:
 [devttys0/littleblackbox](https://github.com/devttys0/littleblackbox)
 
