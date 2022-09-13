@@ -76,6 +76,7 @@ Save the key information to a file (there may be an easier way but I don't know 
 `vim /mnt/c/Users/adhd/snoop.key`
 
 Paste the RSA key in
+<br>
 Press ESC and then `:wq`
 
 We now need to add the RSA key into Wireshark so it can help us decode the traffic:
@@ -99,9 +100,10 @@ In Wireshark, add the new key to the keys list:
 - Key File C:/Users/adhd/snoop.key
 - Click OK
 
-Now all of the encrpyted traffic is highlighted in green. I chose to look for POST entries in the Info column since we knew we were looking for someone setting a password.
+Now all of the encrypted traffic is highlighted in green. I chose to look for POST entries in the Info column since we knew we were looking for someone *setting* a password.
 
 On line 1511, click HTML Form URL Encoded: application/x-www-form-urlencoded.
+<br>
 Line "wpa_sta_auth_shared_key" has the unencrypted password.
 
 **Danc3LikeNoOnesW@tch1ngEncryp7LikeEveryoneIs**
