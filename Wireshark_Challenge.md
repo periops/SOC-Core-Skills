@@ -102,4 +102,4 @@ Line "wpa_sta_auth_shared_key" has the unencrypted password!
 
 **Danc3LikeNoOnesW@tch1ngEncryp7LikeEveryoneIs**
 
-:happy:
+:grin:
