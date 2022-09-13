@@ -88,15 +88,10 @@ Open the snoop.pcap in Wireshark
 In Wireshark, add the new key to the keys list:
 
 - Edit > Preferences > Protocols > TLS
-
 - RSA keys list > Edit...
-
 - Add a new key with +
-
 - IP address 0.0.0.0
-
 - Key File C:/Users/adhd/snoop.key
-
 - Click OK
 
 
